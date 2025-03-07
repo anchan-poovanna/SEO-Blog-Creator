@@ -1,0 +1,8 @@
+streamlit
+anthropic
+openai
+beautifulsoup4
+requests
+fpdf
+python-dotenv
+firecrawl
