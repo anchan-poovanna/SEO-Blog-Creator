@@ -237,7 +237,7 @@ FAQ:
 5. [Question 5]
 
 Writing Guidelines:
-- Word count target: 100-1500 words strictly
+- Word count target: 1000-1500 words strictly
 - Content tone: conversational, easy to understand and crisp
 - Statistics/data placement
 - Expert quote areas
