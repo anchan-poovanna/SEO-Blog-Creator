@@ -191,9 +191,9 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
-- Primary: {serp_data.get('search_parameters', {}).get('q', '')}
-- Secondary: {serp_data.get('search_parameters', {}).get('q', '')}
-- Industry level: {serp_data.get('search_parameters', {}).get('q', '')}
+- Primary: Tech-Savvy Startup Founders: Entrepreneurs looking to launch AI-powered dating platforms or upgrade existing ones with chatbot features.Product Managers in Dating/Social Apps: Decision-makers who need AI tools like chatbots or smart matching algorithms to boost user engagement.VC-Backed Dating Startups: Early-stage to Series A funded businesses seeking fast, customizable app development solutions (AI-driven).
+- Secondary: App Development Agencies/Consultants: Agencies needing white-label solutions or partnerships to deliver AI dating/chatbot projects to clients.
+- Industry level: Enterprises in the Online Dating & Lifestyle Space: Established brands exploring AI integrations (chatbots, NLP, recommendation engines) to stay competitive.
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
@@ -363,3 +363,7 @@ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
         except Exception as e:
             print(f"Error identifying content elements: {str(e)}")
             return {}
+# Target Audience:
+# - Primary: {serp_data.get('search_parameters', {}).get('q', '')}
+# - Secondary: {serp_data.get('search_parameters', {}).get('q', '')}
+# - Industry level: {serp_data.get('search_parameters', {}).get('q', '')}
