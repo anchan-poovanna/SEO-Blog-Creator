@@ -191,9 +191,9 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
-- Primary: Tech-Savvy Startup Founders: Entrepreneurs looking to launch AI-powered dating platforms or upgrade existing ones with chatbot features.Product Managers in Dating/Social Apps: Decision-makers who need AI tools like chatbots or smart matching algorithms to boost user engagement.VC-Backed Dating Startups: Early-stage to Series A funded businesses seeking fast, customizable app development solutions (AI-driven).
-- Secondary: App Development Agencies/Consultants: Agencies needing white-label solutions or partnerships to deliver AI dating/chatbot projects to clients.
-- Industry level: Enterprises in the Online Dating & Lifestyle Space: Established brands exploring AI integrations (chatbots, NLP, recommendation engines) to stay competitive.
+-Primary: Aspiring founders with new ideas for social media apps, seeking a quick launch.
+-Secondary: Early-stage startups focused on building MVPs for validation or pitching to investors. Non-technical entrepreneurs looking for plug-and-play app solutions to avoid building from scratch.
+-Industry level: Founders exploring monetization models like in-app purchases, subscriptions, or social commerce. Startup teams under pressure to reduce time-to-market and show early traction.
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
