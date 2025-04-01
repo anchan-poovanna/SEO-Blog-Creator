@@ -191,9 +191,9 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
--Primary: Aspiring founders with new ideas for social media apps, seeking a quick launch.
--Secondary: Early-stage startups focused on building MVPs for validation or pitching to investors. Non-technical entrepreneurs looking for plug-and-play app solutions to avoid building from scratch.
--Industry level: Founders exploring monetization models like in-app purchases, subscriptions, or social commerce. Startup teams under pressure to reduce time-to-market and show early traction.
+-Primary: Product innovators tracking the latest social media trends and platform formats.
+-Secondary: Tech entrepreneurs looking to capitalize on niche or underserved communities. Media brands or creators wanting to build their own social network or community platform.
+-Industry level: Startups focused on AI, audio-first, or creator-led platforms, inspired by apps like Clubhouse or Geneva. Businesses experimenting with social commerce and engagement-driven app ecosystems.
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
