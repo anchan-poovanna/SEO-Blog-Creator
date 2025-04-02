@@ -191,9 +191,9 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
--Primary: Product innovators tracking the latest social media trends and platform formats.
--Secondary: Tech entrepreneurs looking to capitalize on niche or underserved communities. Media brands or creators wanting to build their own social network or community platform.
--Industry level: Startups focused on AI, audio-first, or creator-led platforms, inspired by apps like Clubhouse or Geneva. Businesses experimenting with social commerce and engagement-driven app ecosystems.
+- Primary: {serp_data.get('search_parameters', {}).get('q', '')}
+- Secondary: {serp_data.get('search_parameters', {}).get('q', '')}
+- Industry level: {serp_data.get('search_parameters', {}).get('q', '')}
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
