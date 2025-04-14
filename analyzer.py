@@ -191,9 +191,12 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
--Primary: Tech entrepreneurs, mobility startups, urban mobility integrators, fleet operators, automotive SaaS providers, and OEMs.
--Secondary: White-label robotaxi solutions, infrastructure integration, fleet upgrades, dispatch and safety systems, API-ready platforms.
--Industry: Autonomous ride-hailing, smart cities, fleet management, automotive technology.
+
+Primary: Aspiring entrepreneurs and startup founders launching eCommerce apps.
+
+Secondary: Small business owners seeking to digitize or upgrade their online store.
+
+Industry: eCommerce, retail, and direct-to-consumer (D2C) businesses.
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
