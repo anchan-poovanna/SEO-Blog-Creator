@@ -192,11 +192,10 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
 
 Target Audience:
 
-Primary: Aspiring entrepreneurs and startup founders launching eCommerce apps.
-
-Secondary: Small business owners seeking to digitize or upgrade their online store.
-
-Industry: eCommerce, retail, and direct-to-consumer (D2C) businesses.
+# Target Audience:
+# - Primary: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
+# - Secondary: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
+# - Industry level: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
