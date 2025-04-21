@@ -192,10 +192,12 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
 
 Target Audience:
 
-# Target Audience:
-# - Primary: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
-# - Secondary: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
-# - Industry level: Predict It based on {serp_data.get('search_parameters', {}).get('q', '')}
+Primary: Aspiring entrepreneurs, startup founders, and small business owners planning to launch or revamp an eCommerce app.
+
+Secondary: Individuals actively searching for must-have eCommerce app features and development cost estimates.
+
+Industry level: Early-to-mid stage decision-makers in the eCommerce or tech startup space with strong purchase intent, facing concerns around unclear feature requirements, hidden development costs, and project delays. They are attracted to ready-made, customizable solutions like those offered by Appscrip to reduce time-to-market and lower overall costs.
+
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
