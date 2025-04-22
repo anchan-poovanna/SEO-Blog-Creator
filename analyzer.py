@@ -191,13 +191,9 @@ Secondary Keywords: {', '.join(self.secondary_keywords)}
         prompt =  f"""Create a comprehensive SEO article outline for: {serp_data.get('search_parameters', {}).get('q', '')}
 
 Target Audience:
-
-Primary: Aspiring entrepreneurs, startup founders, and small business owners planning to launch or revamp an eCommerce app.
-
-Secondary: Individuals actively searching for must-have eCommerce app features and development cost estimates.
-
-Industry level: Early-to-mid stage decision-makers in the eCommerce or tech startup space with strong purchase intent, facing concerns around unclear feature requirements, hidden development costs, and project delays. They are attracted to ready-made, customizable solutions like those offered by Appscrip to reduce time-to-market and lower overall costs.
-
+# - Primary: {serp_data.get('search_parameters', {}).get('q', '')}
+# - Secondary: {serp_data.get('search_parameters', {}).get('q', '')}
+# - Industry level: {serp_data.get('search_parameters', {}).get('q', '')}
 
 SEO Elements to Include:
 1. Recommended meta title (50-60 characters)
@@ -368,6 +364,4 @@ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
             print(f"Error identifying content elements: {str(e)}")
             return {}
 # Target Audience:
-# - Primary: {serp_data.get('search_parameters', {}).get('q', '')}
-# - Secondary: {serp_data.get('search_parameters', {}).get('q', '')}
-# - Industry level: {serp_data.get('search_parameters', {}).get('q', '')}
+
